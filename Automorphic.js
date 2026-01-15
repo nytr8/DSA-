@@ -2,7 +2,7 @@ function isAutomorphic(n) {
   let numLength = String(n).length;
   let sqrNum = n * n;
   if (n == 0 || n == 1) {
-    return "Yes";
+    return "yes";
   }
   for (var i = 0; i < numLength; i++) {
     let lastDigitOfEnteredNum = n % 10;
@@ -14,5 +14,5 @@ function isAutomorphic(n) {
       break;
     }
   }
-  return "Yes";
+  return "yes";
 }
