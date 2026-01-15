@@ -10,7 +10,7 @@ function isAutomorphic(n) {
     n = Math.floor(n / 10);
     sqrNum = Math.floor(sqrNum / 10);
     if (lastDigitOfsqrNum !== lastDigitOfEnteredNum) {
-      return "No";
+      return "no";
       break;
     }
   }
