@@ -1,6 +1,5 @@
 function is_neon(nStr) {
   let sum = 0;
-  let num = nStr;
   let sqrNum = nStr * nStr;
   if (nStr == 0 || nStr == 1) {
     return "Yes";
